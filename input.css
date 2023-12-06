@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .chevron-down{
+        @apply after:content-['\f078'] after:font-bold after:font-awesome after:text-xs after:ml-4 after:relative after:top-0 ;
+    }
+    .navlink{
+        @apply h-10 px-5 rounded-2xl inline-flex items-center whitespace-nowrap hover:bg-sky-100;
+    }
+    
+}
